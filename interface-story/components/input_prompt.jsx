@@ -29,7 +29,7 @@ export function InputForm({setStory, setLoading, textValue, setTextValue}){
     }
 
     try{
-      const response = await fetch(process.env.NEXT_PUBLIC_STORY_URL, {
+      const response = await fetch("http://localhost:8000/story", {
         method: 'POST',
         headers: {
           "Content-Type": "application/json",
