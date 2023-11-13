@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {/* <HamburguerIcon/> */}
         {children}
-        <a className="absolute bottom-4 inset-x-1/2 flex flex-col justify-center items-center" href="https://github.com/breakInIf/storyteller.ai" target="_blank" rel="noopener noreferrer">
+        <a className="absolute bottom-2 inset-x-1/2 flex flex-col justify-center items-center" href="https://github.com/breakInIf/storyteller.ai" target="_blank" rel="noopener noreferrer">
           <IoLogoGithub />
           <span className='text-slate-500 text-xs'>breakInIf</span>
         </a>

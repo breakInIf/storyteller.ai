@@ -9,9 +9,10 @@ export function ModelsDropdown({model,models}){
     return (
 
         <>
-            <h2 className={`mt-2 ${inter1.className} text-xs text-center`}>Model</h2>
-            <div className="rounded-xl w-[20%]">
-                <h3 className={`${inter.className} text-xs text-center overflow-hidden`}>{model}</h3>
+            {/* <h2 className={`mt-2 ${inter1.className} text-xs text-center`}>Model</h2> */}
+            <div className="rounded-xl w-[20%] text-xs text-center">
+                <h3 >Model:
+                <span className={`${inter.className} overflow-hidden`}> {model}</span></h3>
             </div>
         </>
     )

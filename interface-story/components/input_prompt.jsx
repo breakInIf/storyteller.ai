@@ -39,14 +39,14 @@ export function InputForm({setStory, setLoading, textValue, setTextValue}){
       })
 
       if (!response.ok) {
-        setStory("BAD RESPONSE!!! Oops! Someting went wrong...")
+        setStory("Oops! Someting went wrong... Try using another model")
       }
   
       const data = await response.json()
       setStory(data.story)
 
     }catch(err){
-        setStory("BAD REQUEST!!!! Oops! Someting went wrong...")
+        setStory("Oops! Someting went wrong... Try using another model")
     }
 
     setLoading(false)
