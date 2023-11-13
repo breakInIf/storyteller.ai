@@ -1,7 +1,7 @@
 # Storyteller.AI
 Create short stories using artificial intelligence.
 
-This project uses model from HuggingFace Hub and LangChain to write short stories.
+This project uses models from HuggingFace Hub and LangChain to write short stories.
 
 ## Getting started
 
